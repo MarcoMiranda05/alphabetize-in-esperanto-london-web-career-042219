@@ -1,6 +1,6 @@
 ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
- def alphabetize(arr)	
+ def alphabetize(arr)
   arr.sort_by do | word |
     x = []
       word.each_char do | c |
